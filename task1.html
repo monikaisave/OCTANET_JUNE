@@ -1,0 +1,491 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-book Download Landing Page</title>
+   <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(179, 113, 113);
+    color: #333;
+}
+
+header {
+    background-color:black;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+header nav {
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color:black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color:black;
+}
+
+.ebook-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.ebook {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ebook h2 {
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+.ebook p {
+    font-size: 1em;
+}
+
+.ebook-cover {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.author-bio {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.author-photo {
+    border-radius: 50%;
+    margin-right: 20px;
+    max-width: 100px;
+}
+
+.benefits {
+    margin-top: 20px;
+}
+
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.benefits li {
+    font-size: 1.2em;
+    padding: 5px 0;
+}
+
+.social-proof {
+    padding: 20px;
+    background: #e9ecef;
+    font-style: italic;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form-section {
+    padding: 20px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label {
+    margin-top: 10px;
+}
+
+.form-section input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section .cta-button {
+    margin-top: 20px;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-book Download Landing Page</title>
+   <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(179, 113, 113);
+    color: #333;
+}
+
+header {
+    background-color:black;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+header nav {
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color:black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color:black;
+}
+
+.ebook-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.ebook {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ebook h2 {
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+.ebook p {
+    font-size: 1em;
+}
+
+.ebook-cover {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.author-bio {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.author-photo {
+    border-radius: 50%;
+    margin-right: 20px;
+    max-width: 100px;
+}
+
+.benefits {
+    margin-top: 20px;
+}
+
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.benefits li {
+    font-size: 1.2em;
+    padding: 5px 0;
+}
+
+.social-proof {
+    padding: 20px;
+    background: #e9ecef;
+    font-style: italic;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form-section {
+    padding: 20px;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label {
+    margin-top: 10px;
+}
+
+.form-section input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section .cta-button {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background:black;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-media a {
+      margin: 0 10px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">ReadIt</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>Discover Our Free E-books</h1>
+            <p>Explore our collection of e-books and download them for free to enhance your knowledge and skills.</p>
+        </div>
+
+        <!-- E-book Sections -->
+        <div class="ebook-section">
+            <!-- E-book 1 -->
+            <div class="ebook">
+                <img src="https://images.unsplash.com/photo-1494809610410-160faaed4de0" alt="E-book Cover" class="ebook-cover">
+                <h2>Unlock the Secrets to Successful Digital Marketing</h2>
+                <p>Discover proven strategies to enhance your online presence and drive sales.</p>
+                <a href="#form-section" class="cta-button">Download Now</a>
+                <div class="author-bio">
+                    <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6" alt="Author Photo" class="author-photo">
+                    <p>Written by Nick Jonas, a digital marketing expert with over 10 years of experience.</p>
+                </div>
+                <div class="benefits">
+                    <ul>
+                        <li>✓ Learn the latest SEO strategies</li>
+                        <li>✓ Increase your social media engagement</li>
+                        <li>✓ Boost your online sales</li>
+                    </ul>
+                </div>
+                <div class="social-proof">
+                    <p>"This e-book transformed our marketing strategy and increased our ROI by 30% - Jane Smith, Marketing Director"</p>
+                </div>
+            </div>
+
+            <!-- E-book 2 -->
+            <div class="ebook">
+                <img src="https://images.unsplash.com/photo-1555529669-2c9e711e9d50" alt="E-book Cover" class="ebook-cover">
+                <h2>Mastering Social Media Marketing</h2>
+                <p>Learn how to effectively engage your audience and grow your social media presence.</p>
+                <a href="#form-section" class="cta-button">Download Now</a>
+                <div class="author-bio">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" alt="Author Photo" class="author-photo">
+                    <p>Written by John Smith, a social media strategist with a proven track record.</p>
+                </div>
+                <div class="benefits">
+                    <ul>
+                        <li>✓ Create compelling social media content</li>
+                        <li>✓ Build a loyal following</li>
+                        <li>✓ Analyze and optimize your performance</li>
+                    </ul>
+                </div>
+                <div class="social-proof">
+                    <p>"A must-read for anyone looking to dominate social media - Alex Johnson, Social Media Influencer"</p>
+                </div>
+            </div>
+
+            <!-- E-book 3 -->
+            <div class="ebook">
+                <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f" alt="E-book Cover" class="ebook-cover">
+                <h2>The Ultimate Guide to Content Marketing</h2>
+                <p>Discover how to create and distribute valuable content to attract and retain customers.</p>
+                <a href="#form-section" class="cta-button">Download Now</a>
+                <div class="author-bio">
+                    <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167" alt="Author Photo" class="author-photo">
+                    <p>Written by maichel kor, a content marketing expert with years of industry experience.</p>
+                </div>
+                <div class="benefits">
+                    <ul>
+                        <li>✓ Develop a content strategy</li>
+                        <li>✓ Create engaging content</li>
+                        <li>✓ Measure and improve your results</li>
+                    </ul>
+                </div>
+                <div class="social-proof">
+                    <p>"An essential resource for content marketers - Sarah Brown, Content Marketing Manager"</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lead Capture Form Section -->
+        <div class="form-section" id="form-section">
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit" class="cta-button">Download Now</button>
+                <p>Your information is safe with us.</p>
+            </form>
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>Contact us at: info@ex.com</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            <div class="social-media">
+                <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
